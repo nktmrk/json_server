@@ -1,0 +1,1019 @@
+[
+  {
+    "id": "I3grkaurw4",
+    "displayName": "Tags",
+    "prefix": "as11s",
+    "namespace": "http://ns.adobe.com/mxf/as/11/structural/",
+    "propertyName": "a",
+    "type": "Tags",
+    "dependencies": [],
+    "readOnly": false,
+    "arrayType": "bag",
+    "allowCreate": false,
+    "options": [
+      { "label": "One", "value": "one" },
+      { "label": "Two", "value": "two" },
+      { "label": "Three", "value": "three" },
+      { "label": "Four", "value": "four" }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "bNMH2lEepK",
+    "displayName": "Checkbox",
+    "prefix": "xmpidq",
+    "namespace": "http://ns.adobe.com/xmp/Identifier/qual/1.0/",
+    "propertyName": "Check",
+    "type": "Checkbox",
+    "dependencies": [],
+    "readOnly": false,
+    "options": { "checked": "True", "unchecked": "False" },
+    "disabled": false
+  },
+  {
+    "id": "gwZoSiBJo4",
+    "displayName": "AEM",
+    "prefix": "cq",
+    "namespace": "http://www.day.com/jcr/cq/1.0",
+    "propertyName": "tags",
+    "type": "AEMTags",
+    "dependencies": [],
+    "readOnly": false,
+    "options": {
+      "namespaces": {
+        "pet-rescue": {
+          "name": "pet-rescue",
+          "title": "Pet Rescue",
+          "description": "Pet Rescue Tags",
+          "path": "/content/cq:tags/pet-rescue",
+          "tags": {
+            "behavior": {
+              "path": "/content/cq:tags/pet-rescue/behavior",
+              "tagID": "pet-rescue:behavior",
+              "name": "behavior",
+              "title": "Behavior",
+              "title_xss": "Behavior",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Rescue : Behavior",
+              "tags": {
+                "active": {
+                  "path": "/content/cq:tags/pet-rescue/behavior/active",
+                  "tagID": "pet-rescue:behavior/active",
+                  "name": "active",
+                  "title": "Active",
+                  "title_xss": "Active",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Behavior / Active",
+                  "tags": {}
+                },
+                "playful": {
+                  "path": "/content/cq:tags/pet-rescue/behavior/playful",
+                  "tagID": "pet-rescue:behavior/playful",
+                  "name": "playful",
+                  "title": "Playful",
+                  "title_xss": "Playful",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Behavior / Playful",
+                  "tags": {}
+                },
+                "friendly": {
+                  "path": "/content/cq:tags/pet-rescue/behavior/friendly",
+                  "tagID": "pet-rescue:behavior/friendly",
+                  "name": "friendly",
+                  "title": "Friendly",
+                  "title_xss": "Friendly",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Behavior / Friendly",
+                  "tags": {}
+                },
+                "aloof": {
+                  "path": "/content/cq:tags/pet-rescue/behavior/aloof",
+                  "tagID": "pet-rescue:behavior/aloof",
+                  "name": "aloof",
+                  "title": "Aloof",
+                  "title_xss": "Aloof",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Behavior / Aloof",
+                  "tags": {}
+                },
+                "trained": {
+                  "path": "/content/cq:tags/pet-rescue/behavior/trained",
+                  "tagID": "pet-rescue:behavior/trained",
+                  "name": "trained",
+                  "title": "Trained",
+                  "title_xss": "Trained",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Behavior / Trained",
+                  "tags": {}
+                }
+              }
+            },
+            "health": {
+              "path": "/content/cq:tags/pet-rescue/health",
+              "tagID": "pet-rescue:health",
+              "name": "health",
+              "title": "Health",
+              "title_xss": "Health",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Rescue : Health",
+              "tags": {
+                "spayed": {
+                  "path": "/content/cq:tags/pet-rescue/health/spayed",
+                  "tagID": "pet-rescue:health/spayed",
+                  "name": "spayed",
+                  "title": "Spayed",
+                  "title_xss": "Spayed",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Health / Spayed",
+                  "tags": {}
+                },
+                "neutered": {
+                  "path": "/content/cq:tags/pet-rescue/health/neutered",
+                  "tagID": "pet-rescue:health/neutered",
+                  "name": "neutered",
+                  "title": "Neutered",
+                  "title_xss": "Neutered",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Health / Neutered",
+                  "tags": {}
+                },
+                "vaccinated": {
+                  "path": "/content/cq:tags/pet-rescue/health/vaccinated",
+                  "tagID": "pet-rescue:health/vaccinated",
+                  "name": "vaccinated",
+                  "title": "Vaccinated",
+                  "title_xss": "Vaccinated",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Health / Vaccinated",
+                  "tags": {}
+                },
+                "special-needs": {
+                  "path": "/content/cq:tags/pet-rescue/health/special-needs",
+                  "tagID": "pet-rescue:health/special-needs",
+                  "name": "special-needs",
+                  "title": "Special Needs",
+                  "title_xss": "Special Needs",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Health / Special Needs",
+                  "tags": {}
+                }
+              }
+            },
+            "coat": {
+              "path": "/content/cq:tags/pet-rescue/coat",
+              "tagID": "pet-rescue:coat",
+              "name": "coat",
+              "title": "Coat",
+              "title_xss": "Coat",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Rescue : Coat",
+              "tags": {
+                "hairless": {
+                  "path": "/content/cq:tags/pet-rescue/coat/hairless",
+                  "tagID": "pet-rescue:coat/hairless",
+                  "name": "hairless",
+                  "title": "Hairless",
+                  "title_xss": "Hairless",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Coat / Hairless",
+                  "tags": {}
+                },
+                "short": {
+                  "path": "/content/cq:tags/pet-rescue/coat/short",
+                  "tagID": "pet-rescue:coat/short",
+                  "name": "short",
+                  "title": "Short",
+                  "title_xss": "Short",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Coat / Short",
+                  "tags": {}
+                },
+                "medium": {
+                  "path": "/content/cq:tags/pet-rescue/coat/medium",
+                  "tagID": "pet-rescue:coat/medium",
+                  "name": "medium",
+                  "title": "Medium",
+                  "title_xss": "Medium",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Coat / Medium",
+                  "tags": {}
+                },
+                "long": {
+                  "path": "/content/cq:tags/pet-rescue/coat/long",
+                  "tagID": "pet-rescue:coat/long",
+                  "name": "long",
+                  "title": "long",
+                  "title_xss": "long",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Coat / long",
+                  "tags": {}
+                }
+              }
+            },
+            "other": {
+              "path": "/content/cq:tags/pet-rescue/other",
+              "tagID": "pet-rescue:other",
+              "name": "other",
+              "title": "Other",
+              "title_xss": "Other",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Rescue : Other",
+              "tags": {
+                "good-with-other-dogs": {
+                  "path": "/content/cq:tags/pet-rescue/other/good-with-other-dogs",
+                  "tagID": "pet-rescue:other/good-with-other-dogs",
+                  "name": "good-with-other-dogs",
+                  "title": "Good with other dogs",
+                  "title_xss": "Good with other dogs",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Other / Good with other dogs",
+                  "tags": {}
+                },
+                "good-with-other-cats": {
+                  "path": "/content/cq:tags/pet-rescue/other/good-with-other-cats",
+                  "tagID": "pet-rescue:other/good-with-other-cats",
+                  "name": "good-with-other-cats",
+                  "title": "Good with other cats",
+                  "title_xss": "Good with other cats",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Other / Good with other cats",
+                  "tags": {}
+                },
+                "good-with-children": {
+                  "path": "/content/cq:tags/pet-rescue/other/good-with-children",
+                  "tagID": "pet-rescue:other/good-with-children",
+                  "name": "good-with-children",
+                  "title": "Good with children",
+                  "title_xss": "Good with children",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Rescue : Other / Good with children",
+                  "tags": {}
+                }
+              }
+            }
+          }
+        },
+        "petshop": {
+          "name": "petshop",
+          "title": "Pet Shop",
+          "description": "",
+          "path": "/content/cq:tags/petshop",
+          "tags": {
+            "cat": {
+              "path": "/content/cq:tags/petshop/cat",
+              "tagID": "petshop:cat",
+              "name": "cat",
+              "title": "cat",
+              "title_xss": "cat",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Shop : cat",
+              "tags": {
+                "short-hair": {
+                  "path": "/content/cq:tags/petshop/cat/short-hair",
+                  "tagID": "petshop:cat/short-hair",
+                  "name": "short-hair",
+                  "title": "short hair",
+                  "title_xss": "short hair",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : cat / short hair",
+                  "tags": {
+                    "siamese": {
+                      "path": "/content/cq:tags/petshop/cat/short-hair/siamese",
+                      "tagID": "petshop:cat/short-hair/siamese",
+                      "name": "siamese",
+                      "title": "siamese",
+                      "title_xss": "siamese",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / short hair / siamese",
+                      "tags": {}
+                    },
+                    "abyssinian": {
+                      "path": "/content/cq:tags/petshop/cat/short-hair/abyssinian",
+                      "tagID": "petshop:cat/short-hair/abyssinian",
+                      "name": "abyssinian",
+                      "title": "abyssinian",
+                      "title_xss": "abyssinian",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / short hair / abyssinian",
+                      "tags": {}
+                    },
+                    "american-shorthair": {
+                      "path": "/content/cq:tags/petshop/cat/short-hair/american-shorthair",
+                      "tagID": "petshop:cat/short-hair/american-shorthair",
+                      "name": "american-shorthair",
+                      "title": "american short hair",
+                      "title_xss": "american short hair",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / short hair / american short hair",
+                      "tags": {}
+                    },
+                    "oriental": {
+                      "path": "/content/cq:tags/petshop/cat/short-hair/oriental",
+                      "tagID": "petshop:cat/short-hair/oriental",
+                      "name": "oriental",
+                      "title": "oriental",
+                      "title_xss": "oriental",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / short hair / oriental",
+                      "tags": {}
+                    }
+                  }
+                },
+                "long-hair": {
+                  "path": "/content/cq:tags/petshop/cat/long-hair",
+                  "tagID": "petshop:cat/long-hair",
+                  "name": "long-hair",
+                  "title": "long hair",
+                  "title_xss": "long hair",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : cat / long hair",
+                  "tags": {
+                    "maine-coon": {
+                      "path": "/content/cq:tags/petshop/cat/long-hair/maine-coon",
+                      "tagID": "petshop:cat/long-hair/maine-coon",
+                      "name": "maine-coon",
+                      "title": "maine coon",
+                      "title_xss": "maine coon",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / long hair / maine coon",
+                      "tags": {}
+                    },
+                    "persian": {
+                      "path": "/content/cq:tags/petshop/cat/long-hair/persian",
+                      "tagID": "petshop:cat/long-hair/persian",
+                      "name": "persian",
+                      "title": "persian",
+                      "title_xss": "persian",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / long hair / persian",
+                      "tags": {}
+                    },
+                    "birman": {
+                      "path": "/content/cq:tags/petshop/cat/long-hair/birman",
+                      "tagID": "petshop:cat/long-hair/birman",
+                      "name": "birman",
+                      "title": "birman",
+                      "title_xss": "birman",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / long hair / birman",
+                      "tags": {}
+                    },
+                    "norwegian-forest": {
+                      "path": "/content/cq:tags/petshop/cat/long-hair/norwegian-forest",
+                      "tagID": "petshop:cat/long-hair/norwegian-forest",
+                      "name": "norwegian-forest",
+                      "title": "norwegian forest",
+                      "title_xss": "norwegian forest",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : cat / long hair / norwegian forest",
+                      "tags": {}
+                    }
+                  }
+                }
+              }
+            },
+            "dog": {
+              "path": "/content/cq:tags/petshop/dog",
+              "tagID": "petshop:dog",
+              "name": "dog",
+              "title": "dog",
+              "title_xss": "dog",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Shop : dog",
+              "tags": {
+                "schnauzer": {
+                  "path": "/content/cq:tags/petshop/dog/schnauzer",
+                  "tagID": "petshop:dog/schnauzer",
+                  "name": "schnauzer",
+                  "title": "schnauzer",
+                  "title_xss": "schnauzer",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : dog / schnauzer",
+                  "tags": {}
+                },
+                "chinook": {
+                  "path": "/content/cq:tags/petshop/dog/chinook",
+                  "tagID": "petshop:dog/chinook",
+                  "name": "chinook",
+                  "title": "chinook",
+                  "title_xss": "chinook",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : dog / chinook",
+                  "tags": {}
+                },
+                "great-pyrenees": {
+                  "path": "/content/cq:tags/petshop/dog/great-pyrenees",
+                  "tagID": "petshop:dog/great-pyrenees",
+                  "name": "great-pyrenees",
+                  "title": "great pyrenees",
+                  "title_xss": "great pyrenees",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : dog / great pyrenees",
+                  "tags": {}
+                },
+                "labrador": {
+                  "path": "/content/cq:tags/petshop/dog/labrador",
+                  "tagID": "petshop:dog/labrador",
+                  "name": "labrador",
+                  "title": "labrador",
+                  "title_xss": "labrador",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : dog / labrador",
+                  "tags": {
+                    "yellow-lab": {
+                      "path": "/content/cq:tags/petshop/dog/labrador/yellow-lab",
+                      "tagID": "petshop:dog/labrador/yellow-lab",
+                      "name": "yellow-lab",
+                      "title": "yellow lab",
+                      "title_xss": "yellow lab",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : dog / labrador / yellow lab",
+                      "tags": {}
+                    },
+                    "chocolate-lab": {
+                      "path": "/content/cq:tags/petshop/dog/labrador/chocolate-lab",
+                      "tagID": "petshop:dog/labrador/chocolate-lab",
+                      "name": "chocolate-lab",
+                      "title": "chocolate lab",
+                      "title_xss": "chocolate lab",
+                      "description": "",
+                      "description_xss": "",
+                      "titlePath": "Pet Shop : dog / labrador / chocolate lab",
+                      "tags": {}
+                    }
+                  }
+                }
+              }
+            },
+            "gender": {
+              "path": "/content/cq:tags/petshop/gender",
+              "tagID": "petshop:gender",
+              "name": "gender",
+              "title": "gender",
+              "title_xss": "gender",
+              "description": "",
+              "description_xss": "",
+              "titlePath": "Pet Shop : gender",
+              "tags": {
+                "male": {
+                  "path": "/content/cq:tags/petshop/gender/male",
+                  "tagID": "petshop:gender/male",
+                  "name": "male",
+                  "title": "male",
+                  "title_xss": "male",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : gender / male",
+                  "tags": {}
+                },
+                "female": {
+                  "path": "/content/cq:tags/petshop/gender/female",
+                  "tagID": "petshop:gender/female",
+                  "name": "female",
+                  "title": "female",
+                  "title_xss": "female",
+                  "description": "",
+                  "description_xss": "",
+                  "titlePath": "Pet Shop : gender / female",
+                  "tags": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "disabled": false
+  },
+  {
+    "id": "HRTNuH450l",
+    "displayName": "Structure Array",
+    "prefix": "cq",
+    "namespace": "http://www.day.com/jcr/cq/1.0",
+    "propertyName": "structure-array-property",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": false,
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "ZVv5BB6eFM",
+          "displayName": "child text 1",
+          "prefix": "stEvt",
+          "namespace": "http://ns.adobe.com/xap/1.0/sType/ResourceEvent#",
+          "propertyName": "child-text1-property",
+          "type": "Text",
+          "dependencies": "",
+          "linkToFile": {},
+          "readOnly": false,
+          "multiLine": false,
+          "altLang": [],
+          "altLangDefault": "",
+          "altLangEnabled": false
+        },
+        {
+          "id": "8NqiVSRT48",
+          "displayName": "child structure 1",
+          "prefix": "xmpBJ",
+          "namespace": "http://ns.adobe.com/xap/1.0/bj/",
+          "propertyName": "child-structure1-property",
+          "type": "Structure",
+          "dependencies": "",
+          "readOnly": false,
+          "arrayType": "bag",
+          "structure": { "fields": [] }
+        },
+        {
+          "id": "vvSkoMq7kq",
+          "displayName": "child date 1",
+          "prefix": "pdfaExtension",
+          "namespace": "http://www.aiim.org/pdfa/ns/extension/",
+          "propertyName": "child-date-1",
+          "type": "Date",
+          "dependencies": "",
+          "readOnly": false
+        }
+      ]
+    },
+    "disabled": false
+  },
+  {
+    "id": "jE0gNnxY14",
+    "displayName": "Date",
+    "prefix": "as11s",
+    "namespace": "http://ns.adobe.com/mxf/as/11/structural/",
+    "propertyName": "date",
+    "type": "Date",
+    "dependencies": [],
+    "readOnly": false,
+    "disabled": false
+  },
+  {
+    "id": "Dzf5xRcpMH",
+    "displayName": "Text - AltLang",
+    "prefix": "premierePrivateFileProperties",
+    "namespace": "http://ns.adobe.com/premierePrivateFileProperties/1.0/",
+    "propertyName": "altlang",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": ["Cy-sr-SP", "Cy-az-AZ", "Cy-uz-UZ"],
+    "altLangDefault": "Cy-sr-SP",
+    "altLangEnabled": true,
+    "disabled": false
+  },
+  {
+    "id": "dK9upXxLVA",
+    "displayName": "Multiple Dropdown",
+    "prefix": "DICOM",
+    "namespace": "http://ns.adobe.com/DICOM/",
+    "propertyName": "d",
+    "type": "MultiDropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "arrayType": "bag",
+    "allowCreate": false,
+    "options": [
+      { "label": "One", "value": "one" },
+      { "label": "Twelve", "value": "two" },
+      { "label": "Third", "value": "third" },
+      { "label": "Four", "value": "four" },
+      { "label": "Five", "value": "five" },
+      { "label": "Six", "value": "six" },
+      { "label": "Seven", "value": "seven" },
+      { "label": "Eight Eight Eight Eight Eight Eight Eight", "value": "eight" }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "ioAJmUXuXP",
+    "displayName": "Number",
+    "prefix": "xmp",
+    "namespace": "http://ns.adobe.com/xap/1.0/",
+    "propertyName": "number",
+    "type": "Number",
+    "dependencies": [],
+    "readOnly": false,
+    "prependZeroes": true,
+    "decimal": true,
+    "minimumValue": -10,
+    "maximumValue": 100,
+    "increment": 3,
+    "disabled": false
+  },
+  {
+    "id": "8oBUfKh7wO",
+    "displayName": "Dropdown",
+    "prefix": "as11c",
+    "namespace": "http://amwa.tv/mxf/as/11/core/",
+    "propertyName": "dropdown",
+    "type": "Dropdown",
+    "dependencies": [],
+    "readOnly": false,
+    "options": [
+      { "label": "Dog", "value": "doggy" },
+      { "label": "Cat", "value": "kitty" }
+    ],
+    "disabled": false
+  },
+  {
+    "id": "Fyv1K7A0yy",
+    "displayName": "Structure Not Array",
+    "prefix": "pdfaExtensionSchema",
+    "namespace": "http://www.aiim.org/pdfa/ns/extension/schema#",
+    "propertyName": "structure-not-array-propery",
+    "type": "Structure",
+    "dependencies": [],
+    "readOnly": true,
+    "arrayType": "bag",
+    "structure": {
+      "fields": [
+        {
+          "id": "3GLm08jP9H",
+          "displayName": "child text 1",
+          "prefix": "as11c",
+          "namespace": "http://amwa.tv/mxf/as/11/core/",
+          "propertyName": "structure-child-text1-property",
+          "type": "Text",
+          "dependencies": "",
+          "readOnly": false
+        },
+        {
+          "id": "37HKIxFeoN",
+          "displayName": "child date 1",
+          "prefix": "as11c",
+          "namespace": "http://amwa.tv/mxf/as/11/core/",
+          "propertyName": "structure-child-date1-property",
+          "type": "Date",
+          "dependencies": "",
+          "readOnly": false
+        },
+        {
+          "id": "HLdKjpW1hj",
+          "displayName": "child check 1",
+          "prefix": "as11c",
+          "namespace": "http://amwa.tv/mxf/as/11/core/",
+          "propertyName": "structure-child-checkbox1-property",
+          "type": "Checkbox",
+          "dependencies": "",
+          "readOnly": false,
+          "options": { "checked": "True", "unchecked": "False" }
+        },
+        {
+          "id": "EwyjGAsElP",
+          "displayName": "child checkgroup 1",
+          "prefix": "as11c",
+          "namespace": "http://amwa.tv/mxf/as/11/core/",
+          "propertyName": "structure-child-checkgroup1-property",
+          "type": "CheckboxGroup",
+          "dependencies": "",
+          "readOnly": false,
+          "options": [
+            { "label": "First", "value": "first" },
+            { "label": "Second", "value": "second" },
+            { "label": "Third", "value": "third" }
+          ]
+        },
+        {
+          "id": "8zb2FR6BCl",
+          "displayName": "child multi date 1",
+          "prefix": "as11c",
+          "namespace": "http://amwa.tv/mxf/as/11/core/",
+          "propertyName": "structure-child-multidate1-property",
+          "type": "MultiDate",
+          "dependencies": "",
+          "readOnly": false,
+          "arrayType": "seq"
+        },
+        {
+          "id": "NMRVf00uAC",
+          "displayName": "child structure 1",
+          "prefix": "as11c",
+          "namespace": "http://amwa.tv/mxf/as/11/core/",
+          "propertyName": "structure-child-structure1-property",
+          "type": "Structure",
+          "dependencies": "",
+          "readOnly": false,
+          "arrayType": "bag",
+          "structure": {
+            "fields": [
+              {
+                "id": "nPZuuYq7T9",
+                "displayName": "child check 2",
+                "prefix": "as11c",
+                "namespace": "http://amwa.tv/mxf/as/11/core/",
+                "propertyName": "structure-child-check2-property",
+                "type": "Checkbox",
+                "dependencies": "",
+                "readOnly": false,
+                "prependZeroes": false,
+                "decimal": false,
+                "minimumValue": null,
+                "maximumValue": null,
+                "increment": 1,
+                "options": { "checked": "True", "unchecked": "False" }
+              },
+              {
+                "id": "ZnOW6KqxqQ",
+                "displayName": "child text 2",
+                "prefix": "as11c",
+                "namespace": "http://amwa.tv/mxf/as/11/core/",
+                "propertyName": "structure-child-text2-property",
+                "type": "Text",
+                "dependencies": "",
+                "linkToFile": {},
+                "readOnly": false,
+                "multiLine": false,
+                "altLang": [],
+                "altLangDefault": "",
+                "altLangEnabled": false
+              },
+              {
+                "id": "Uiy9BfnuqD",
+                "displayName": "child date 2",
+                "prefix": "as11c",
+                "namespace": "http://amwa.tv/mxf/as/11/core/",
+                "propertyName": "structure-child-date2-property",
+                "type": "Date",
+                "dependencies": "",
+                "readOnly": false
+              },
+              {
+                "id": "UwJdrHTZZ6",
+                "displayName": "child dropdown 2",
+                "prefix": "stRef",
+                "namespace": "http://ns.adobe.com/xap/1.0/sType/ResourceRef#",
+                "propertyName": "child-dropdown-2",
+                "type": "Dropdown",
+                "dependencies": "",
+                "readOnly": false,
+                "options": [
+                  { "label": "Dog", "value": "doggy" },
+                  { "label": "Cat", "value": "kitty" }
+                ]
+              }
+            ],
+            "isArray": false,
+            "shouldOverwrite": false
+          }
+        },
+        {
+          "id": "tja7vLjvES",
+          "displayName": "child number 1",
+          "prefix": "as11c",
+          "namespace": "http://amwa.tv/mxf/as/11/core/",
+          "propertyName": "structure-child-number1-property",
+          "type": "Number",
+          "dependencies": "",
+          "readOnly": false,
+          "prependZeroes": false,
+          "decimal": false,
+          "minimumValue": null,
+          "maximumValue": null,
+          "increment": 1
+        },
+        {
+          "id": "cjtF0hyjjZ",
+          "displayName": "child radiogroup 1",
+          "prefix": "as11c",
+          "namespace": "http://amwa.tv/mxf/as/11/core/",
+          "propertyName": "structure-child-radiogroup1-property",
+          "type": "RadioGroup",
+          "dependencies": "",
+          "readOnly": false,
+          "options": [
+            { "label": "One", "value": "1" },
+            { "label": "Two", "value": "2" },
+            { "label": "Three", "value": "3" }
+          ]
+        },
+        {
+          "id": "FeSGz37QB8",
+          "displayName": "child section divider 1",
+          "type": "Divider"
+        },
+        {
+          "id": "KDNZFlQOFG",
+          "displayName": "child sub divider 1",
+          "type": "Subsection"
+        },
+        {
+          "id": "N98C1IWNwg",
+          "displayName": "child switch 1",
+          "prefix": "as11c",
+          "namespace": "http://amwa.tv/mxf/as/11/core/",
+          "propertyName": "structure-child-switch1-property",
+          "type": "Switch",
+          "dependencies": "",
+          "readOnly": false,
+          "options": { "checked": "True", "unchecked": "False" }
+        },
+        {
+          "id": "wEB5xTwCVk",
+          "displayName": "child switchgroup 1",
+          "prefix": "as11c",
+          "namespace": "http://amwa.tv/mxf/as/11/core/",
+          "propertyName": "structure-child-switchgroup1-property",
+          "type": "SwitchGroup",
+          "dependencies": "",
+          "readOnly": false,
+          "options": [
+            { "label": "First", "value": "first" },
+            { "label": "Second", "value": "second" },
+            { "label": "Third", "value": "third" }
+          ]
+        },
+        {
+          "id": "XJXgYgMYcu",
+          "displayName": "child multiple text 1",
+          "prefix": "as11c",
+          "namespace": "http://amwa.tv/mxf/as/11/core/",
+          "propertyName": "structure-child-multipletext1-property",
+          "type": "MultiText",
+          "dependencies": "",
+          "readOnly": false,
+          "arrayType": "bag"
+        },
+        {
+          "id": "tDkcCGHBuM",
+          "displayName": "child tags 1",
+          "prefix": "as11c",
+          "namespace": "http://amwa.tv/mxf/as/11/core/",
+          "propertyName": "structure-child-tag1-property",
+          "type": "Tags",
+          "dependencies": "",
+          "readOnly": false,
+          "arrayType": "bag",
+          "options": [
+            { "label": "Dog", "value": "doggy" },
+            { "label": "Cat", "value": "kitty" }
+          ]
+        }
+      ],
+      "isArray": false,
+      "shouldOverwrite": false
+    },
+    "disabled": false
+  },
+  {
+    "id": "26TEgz0t6g",
+    "displayName": "Text - No AltLang",
+    "prefix": "as11c",
+    "namespace": "http://amwa.tv/mxf/as/11/core/",
+    "propertyName": "text",
+    "type": "Text",
+    "dependencies": [],
+    "readOnly": false,
+    "multiLine": false,
+    "altLang": ["Cy-az-AZ", "Cy-sr-SP"],
+    "altLangDefault": "Cy-az-AZ",
+    "altLangEnabled": false,
+    "disabled": false
+  },
+  {
+    "id": "oBXCifLtHP",
+    "displayName": "Check Group",
+    "prefix": "pdfaExtension",
+    "namespace": "http://www.aiim.org/pdfa/ns/extension/",
+    "propertyName": "cg",
+    "type": "CheckboxGroup",
+    "dependencies": [],
+    "readOnly": false,
+    "options": [
+      { "label": "One", "value": "1" },
+      { "label": "Two", "value": "2" },
+      { "label": "Three  Three  Three  Three ", "value": "3" },
+      { "label": "Four", "value": "4" },
+      { "label": "Five", "value": "5" },
+      { "label": "Six", "value": "6" },
+      { "label": "Seven", "value": "7" }
+    ],
+    "disabled": false,
+    "orientation": "horizontal"
+  },
+  {
+    "id": "8hENktr1QP",
+    "displayName": "Switch",
+    "prefix": "as11s",
+    "namespace": "http://ns.adobe.com/mxf/as/11/structural/",
+    "propertyName": "q",
+    "type": "Switch",
+    "dependencies": [],
+    "readOnly": false,
+    "options": { "checked": "True", "unchecked": "False" },
+    "disabled": false
+  },
+  {
+    "id": "PRmsZN36Lo",
+    "displayName": "SwitchGroup",
+    "prefix": "as11c",
+    "namespace": "http://amwa.tv/mxf/as/11/core/",
+    "propertyName": "sg",
+    "type": "SwitchGroup",
+    "dependencies": [],
+    "readOnly": false,
+    "options": [
+      { "label": "First", "value": "first" },
+      { "label": "Second", "value": "second" },
+      { "label": "Third", "value": "third" }
+    ],
+    "disabled": false,
+    "orientation": "vertical"
+  },
+  {
+    "id": "SI76g65PRY",
+    "displayName": "Multiple Text - Bag",
+    "prefix": "as11u",
+    "namespace": "http://amwa.tv/mxf/as/11/ukdpp/",
+    "propertyName": "qa",
+    "type": "MultiText",
+    "dependencies": [],
+    "readOnly": false,
+    "arrayType": "bag",
+    "disabled": false
+  },
+  {
+    "id": "1ReGc2TRDH",
+    "displayName": "Multiple Date",
+    "prefix": "Iptc4xmpExt",
+    "namespace": "http://iptc.org/std/Iptc4xmpExt/2008-02-29/",
+    "propertyName": "a",
+    "type": "MultiDate",
+    "dependencies": [],
+    "readOnly": false,
+    "arrayType": "seq",
+    "disabled": false
+  },
+  {
+    "id": "fAZcqHXOuX",
+    "displayName": "RadioGroup",
+    "prefix": "pdfaExtensionSchema",
+    "namespace": "http://www.aiim.org/pdfa/ns/extension/schema#",
+    "propertyName": "radio",
+    "type": "RadioGroup",
+    "dependencies": [],
+    "readOnly": false,
+    "options": [
+      { "label": "One", "value": "1" },
+      { "label": "Two", "value": "2" },
+      { "label": "Three", "value": "3" },
+      { "label": "Four", "value": "4" },
+      { "label": "Five", "value": "5" },
+      { "label": "Six", "value": "6" },
+      { "label": "Seven", "value": "7" },
+      { "label": "Eight Eight Eight Eight Eight", "value": "8" }
+    ],
+    "disabled": false,
+    "orientation": "horizontal"
+  },
+  {
+    "id": "StLpQYcVrw",
+    "displayName": "asdf",
+    "namespace": "http://ns.adobe.com/pdf/1.3/",
+    "prefix": "vrae",
+    "propertyName": "a",
+    "type": "Text",
+    "dependencies": [],
+    "disabled": false,
+    "readOnly": false
+  }
+]
